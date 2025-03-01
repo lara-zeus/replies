@@ -7,14 +7,12 @@
 <p align="center">
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/lara-zeus/replies.svg?style=flat-square)](https://packagist.org/packages/lara-zeus/replies)
-[![Tests](https://img.shields.io/github/actions/workflow/status/lara-zeus/replies/run-tests.yml?label=tests&style=flat-square&branch=main)](https://github.com/lara-zeus/replies/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![Code Style](https://img.shields.io/github/actions/workflow/status/lara-zeus/replies/fix-php-code-style-issues.yml?label=code-style&flat-square)](https://github.com/lara-zeus/replies/actions?query=workflow%3Afix-php-code-style-issues+branch%3Amain)
+[![Tests](https://img.shields.io/github/actions/workflow/status/lara-zeus/replies/run-tests.yml?label=tests&style=flat-square&branch=1.x)](https://github.com/lara-zeus/replies/actions?query=workflow%3Arun-tests+branch%3A1.x)
+[![Code Style](https://img.shields.io/github/actions/workflow/status/lara-zeus/replies/fix-php-code-style-issues.yml?label=code-style&flat-square)](https://github.com/lara-zeus/replies/actions?query=workflow%3Afix-php-code-style-issues+branch%3A1.x)
 [![Total Downloads](https://img.shields.io/packagist/dt/lara-zeus/replies.svg?style=flat-square)](https://packagist.org/packages/lara-zeus/replies)
 [![Total Downloads](https://img.shields.io/github/stars/lara-zeus/replies?style=flat-square)](https://github.com/lara-zeus/replies)
 
 </p>
-
-_💖 if you think this has potential, star ⭐️ the project to let me know :)_
 
 ## Support Filament
 
@@ -23,16 +21,15 @@ _💖 if you think this has potential, star ⭐️ the project to let me know :)
 </a>
 
 ## Features
-- 🔥 Add any resources to bookmark.
-- 🔥 easy access to the bookmark list from the top bar
-- 🔥 included widget
 
-and more in the way.
+- 🔥 Associate comments to any model.
+- 🔥 The comments can be approved and nested.
+- 🔥 Included Livewire component
+- 🔥 More Features are coming
 
 ## Demo
 
-visit our demo site: https://demo.larazeus.com/admin/bookmarks
-
+visit our demo site: https://demo.larazeus.com/admin/tickets/1
 
 ## Full Documentation
 
@@ -44,8 +41,9 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 
 ## Support
 available support channels:
-* using our channel `#replies` on [Discord](https://discord.com/channels/883083792112300104/1282762546134384640)
+* using our channel `#replies` on [Discord](https://discord.com/channels/883083792112300104/1345513165122834472)
 * email us using the [contact center](https://larazeus.com/contact-us)
+* [Github issues](https://github.com/lara-zeus/replies)
 
 ## Contributing
 
@@ -57,7 +55,7 @@ If you discover any security related issues, please email info@larazeus.com inst
 
 ## Credits
 
--   [Lara Zeus (Ash)](https://github.com/atmonshi)
+-   [Lara Zeus](https://github.com/atmonshi)
 -   [All Contributors](../../contributors)
 
 ## License
