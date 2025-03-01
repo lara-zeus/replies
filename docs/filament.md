@@ -1,26 +1,22 @@
 ## Zeus Replies
 
-a bookmark manager for your filament resources.
-When you have many, many resources, let your users bookmark what's important to them for easy access.
+Replies Add the ability to associate comments to your FilamentPHP app
 
 ## Features
 
-- 🔥 Add any resources to bookmark.
-- 🔥 easy access to the bookmark list from the top bar
-- 🔥 included widget
+- 🔥 Associate comments to any model.
+- 🔥 The comments can be approved and nested.
+- 🔥 Included Livewire component
 
 ## Screenshots
 
-* **Admin:**:
-
-![](https://larazeus.com/images/screenshots/replies/admin-1.webp)
-![](https://larazeus.com/images/screenshots/replies/admin-2.webp)
-![](https://larazeus.com/images/screenshots/replies/admin-3.webp)
+![](https://larazeus.com/images/screenshots/replies/chat-1.webp)
+![](https://larazeus.com/images/screenshots/replies/chat-2.webp)
 
 ## More Details
 
-**✨ to learn more about Replies the bookmark manager, please visit:**
+**✨ to learn more about Replies, please visit:**
 
 - [Docs](https://larazeus.com/replies)
-- [Demo](https://demo.larazeus.com/admin/bookmarks)
-- [Discord](https://discord.com/channels/883083792112300104/1282762546134384640)
+- [Demo](https://demo.larazeus.com/admin/tickets/1)
+- [Discord](https://discord.com/channels/883083792112300104/1345513165122834472)

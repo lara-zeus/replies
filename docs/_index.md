@@ -1,7 +1,7 @@
 ---
 title: v1
-slogan: Bookmark manager for your filament resources
+slogan: Add the ability to associate comments
 githubUrl: https://github.com/lara-zeus/replies
 branch: 1.x
-icon: vaadin-bolt
+icon: heroicon-o-chat-bubble-left-right
 ---

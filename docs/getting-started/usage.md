@@ -3,15 +3,12 @@ title: Usage
 weight: 3
 ---
 
-## Use the bookmark as a header action
+## Use the Comments livewire component
 
-to add the bookmark action to any filament page:
+to add comments component to any filament page, in your blade file, add:
 
-```php
-protected function getHeaderActions(): array
-{
-    return [
-        BookmarkHeaderAction::make()
-    ];
-}
+```html
+<livewire:replies.comments :item="$ticket" />
 ```
+
+pass the `item` as the main model you want to associate the comment with

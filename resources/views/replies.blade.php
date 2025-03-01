@@ -1,14 +1,14 @@
 <div
     @if(config('zeus-replies.chat_polling.enabled')) wire:poll.{{ config('zeus-replies.chat_polling.time') }} @endif
 >
-    <div x-data class="my-10 overflow-y-auto max-h-[calc(100vh/2)] px-10">
+    <div x-data class="my-10 overflow-y-auto max-h-[calc(100vh/2)] px-1">
         @foreach($comments as $comment)
             @php $isOwner = $comment->user_id === auth()->user()->id; @endphp
             <div class="flex items-center @if($isOwner) justify-end @endif">
                 <div
                     @if($loop->last) x-init="$el.scrollIntoView({block: 'nearest', behavior: 'smooth'})" @endif
                     class="flex flex-col text-xs max-w-xs m-2 mx-3 @if($isOwner) order-1 @else order-2 @endif items-end">
-                    <div class="prose px-3 py-2 @if($isOwner) !rounded-br-none bg-primary-50/50 @else !rounded-bl-none bg-gray-200 @endif text-gray-600 rounded-2xl">
+                    <div class="prose dark:prose-invert px-3 py-2 @if($isOwner) !rounded-br-none bg-primary-50 dark:bg-primary-600 text-gray-600 dark:text-gray-100 @else !rounded-bl-none bg-gray-200 dark:bg-gray-600 text-gray-600 dark:text-gray-100 @endif rounded-2xl">
                         {!!
                             (new \Illuminate\Support\HtmlString(
                                 str(strip_tags($comment->comment))
@@ -22,7 +22,7 @@
                             content: @js($comment->created_at->format(\Filament\Infolists\Infolist::$defaultDateTimeDisplayFormat)),
                             theme: $store.theme,
                         }"
-                        class="cursor-pointer text-xs text-right text-gray-500 dark:text-gray-700"
+                        class="@if($isOwner) text-right @else text-left @endif w-full flex flex-col cursor-pointer text-xs text-gray-500 dark:text-gray-200 my-1"
                     >
                         {{ $comment->created_at->diffForHumans() }}
                     </span>
