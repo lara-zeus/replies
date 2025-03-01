@@ -1,0 +1,82 @@
+# Changelog
+
+All notable changes to `Replies` will be documented in this file
+
+## v1.0.8 - 2025-02-24
+
+### What's Changed
+
+* fix url with record by @atmonshi in https://github.com/lara-zeus/replies/pull/10
+
+**Full Changelog**: https://github.com/lara-zeus/replies/compare/v1.0.7...v1.0.8
+
+## v1.0.7 - 2024-10-31
+
+### What's Changed
+
+* fix default icon by @atmonshi in https://github.com/lara-zeus/replies/pull/8
+
+**Full Changelog**: https://github.com/lara-zeus/replies/compare/v1.0.6...v1.0.7
+
+## v1.0.6 - 2024-10-31
+
+### What's Changed
+
+* Don't show the bookmark in table widgets, causes an error by @redsquirrelstudio in https://github.com/lara-zeus/replies/pull/7
+* Added option to customise icon when there are no bookmarks by @redsquirrelstudio in https://github.com/lara-zeus/replies/pull/6
+
+### New Contributors
+
+* @redsquirrelstudio made their first contribution in https://github.com/lara-zeus/replies/pull/7
+
+**Full Changelog**: https://github.com/lara-zeus/replies/compare/v1.0.5...v1.0.6
+
+## v1.0.5 - 2024-09-08
+
+### What's Changed
+
+* Update table-column-bookmark.blade.php by @atmonshi in https://github.com/lara-zeus/replies/pull/5
+
+**Full Changelog**: https://github.com/lara-zeus/replies/compare/v1.0.4...v1.0.5
+
+## v1.0.4 - 2024-09-07
+
+### What's Changed
+
+* using filament-plugin-tools and clean up by @atmonshi in https://github.com/lara-zeus/replies/pull/4
+
+**Full Changelog**: https://github.com/lara-zeus/replies/compare/v1.0.3...v1.0.4
+
+## v1.0.3 - 2024-09-05
+
+### What's Changed
+
+* Improvements by @atmonshi in https://github.com/lara-zeus/replies/pull/3
+
+**Full Changelog**: https://github.com/lara-zeus/replies/compare/v1.0.2...v1.0.3
+
+## v1.0.2 - 2024-09-03
+
+### What's Changed
+
+* fix if not a resource by @atmonshi in https://github.com/lara-zeus/replies/pull/2
+
+**Full Changelog**: https://github.com/lara-zeus/replies/compare/v1.0.1...v1.0.2
+
+## v1.0.1 - 2024-09-03
+
+### What's Changed
+
+* update migration by @atmonshi in https://github.com/lara-zeus/replies/pull/1
+
+### New Contributors
+
+* @atmonshi made their first contribution in https://github.com/lara-zeus/replies/pull/1
+
+**Full Changelog**: https://github.com/lara-zeus/replies/commits/v1.0.1
+
+## 1.0.0 - 2024-09-03
+
+### What's Changed
+
+- initial release
