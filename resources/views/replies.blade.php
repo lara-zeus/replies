@@ -19,7 +19,7 @@
                     </div>
                     <span
                         x-tooltip="{
-                            content: @js($comment->created_at->format(\Filament\Infolists\Infolist::$defaultDateTimeDisplayFormat)),
+                            content: @js($comment->created_at->format(\Filament\Schemas\Schema::$defaultDateTimeDisplayFormat)),
                             theme: $store.theme,
                         }"
                         class="@if($isOwner) text-right @else text-left @endif w-full flex flex-col cursor-pointer text-xs text-gray-500 dark:text-gray-200 my-1"
