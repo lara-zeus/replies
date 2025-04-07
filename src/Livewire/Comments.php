@@ -6,6 +6,7 @@ use Filament\Forms\Components\MarkdownEditor;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Forms\Form;
+use Filament\Schemas\Schema;
 use Illuminate\Contracts\Foundation\Application as ApplicationAlias;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;
@@ -29,7 +30,7 @@ class Comments extends Component implements HasForms
         $this->form->fill();
     }
 
-    public function form(Form $form): Form
+    public static function form(Schema $form): Schema
     {
         return $form
             ->statePath('data')
