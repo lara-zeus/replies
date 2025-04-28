@@ -22,7 +22,7 @@
                             content: @js($comment->created_at->format($this->form->getDefaultDateDisplayFormat())),
                             theme: $store.theme,
                         }"
-                        class="@if($isOwner) text-right @else text-left @endif w-full flex flex-col cursor-pointer text-xs text-gray-500 dark:text-gray-200 my-1"
+                        class="transition-all ease-in-out duration-150 @if($isOwner) text-right @else text-left @endif w-full flex flex-col cursor-pointer text-xs text-gray-500 dark:text-gray-200 my-1"
                     >
                         {{ $comment->created_at->diffForHumans() }}
                     </span>
