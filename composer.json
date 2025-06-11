@@ -25,7 +25,7 @@
     ],
     "require": {
         "php": "^8.1",
-        "lara-zeus/filament-plugin-tools": "^1.0"
+        "lara-zeus/filament-plugin-tools": "*"
     },
     "require-dev": {
         "larastan/larastan": "^3.0",
@@ -37,7 +37,8 @@
         "pestphp/pest-plugin-arch": "^3.0",
         "pestphp/pest-plugin-laravel": "^3.0",
         "pestphp/pest-plugin-livewire": "^3.0",
-        "phpstan/extension-installer": "^1.0",
+        "phpstan/extension-installer": "^1.4",
+        "phpstan/phpstan": "^2.1",
         "phpstan/phpstan-deprecation-rules": "^2.0",
         "phpstan/phpstan-phpunit": "^2.0"
     },
