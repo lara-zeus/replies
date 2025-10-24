@@ -2,6 +2,14 @@
 
 All notable changes to `Replies` will be documented in this file
 
+## 2.0.1 - 2025-10-24
+
+### What's Changed
+
+* support filament 4 by @atmonshi in https://github.com/lara-zeus/replies/pull/2
+
+**Full Changelog**: https://github.com/lara-zeus/replies/compare/2.0.0...2.0.1
+
 ## v1.0.8 - 2025-02-24
 
 ### What's Changed
