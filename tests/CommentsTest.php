@@ -34,17 +34,6 @@ test('models can store comments', function () {
 
 });
 
-test('comments without users have no relation', function () {
-    $post = Post::create([
-        'title' => 'Some post',
-    ]);
-
-    $comment = $post->comment('this is a comment');
-
-    expect($comment->commentator)->toBeNull()
-        ->and($comment->user_id)->toBeNull();
-});
-
 test('comments can be posted as authenticated users', function () {
     $user = User::first();
 

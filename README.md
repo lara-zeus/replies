@@ -7,8 +7,8 @@
 <p align="center">
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/lara-zeus/replies.svg?style=flat-square)](https://packagist.org/packages/lara-zeus/replies)
-[![Tests](https://img.shields.io/github/actions/workflow/status/lara-zeus/replies/run-tests.yml?label=tests&style=flat-square&branch=1.x)](https://github.com/lara-zeus/replies/actions?query=workflow%3Arun-tests+branch%3A1.x)
-[![Code Style](https://img.shields.io/github/actions/workflow/status/lara-zeus/replies/fix-php-code-style-issues.yml?label=code-style&flat-square)](https://github.com/lara-zeus/replies/actions?query=workflow%3Afix-php-code-style-issues+branch%3A1.x)
+[![Tests](https://img.shields.io/github/actions/workflow/status/lara-zeus/replies/run-tests.yml?label=tests&style=flat-square&branch=2.x)](https://github.com/lara-zeus/replies/actions?query=workflow%3Arun-tests+branch%3A1.x)
+[![Code Style](https://img.shields.io/github/actions/workflow/status/lara-zeus/replies/fix-php-code-style-issues.yml?label=code-style&flat-square)](https://github.com/lara-zeus/replies/actions?query=workflow%3Afix-php-code-style-issues+branch%3A2.x)
 [![Total Downloads](https://img.shields.io/packagist/dt/lara-zeus/replies.svg?style=flat-square)](https://packagist.org/packages/lara-zeus/replies)
 [![Total Downloads](https://img.shields.io/github/stars/lara-zeus/replies?style=flat-square)](https://github.com/lara-zeus/replies)
 

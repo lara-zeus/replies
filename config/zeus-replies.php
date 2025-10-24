@@ -1,5 +1,7 @@
 <?php
 
+use LaraZeus\Replies\Models\Comment;
+
 return [
     /**
      * set the database tables prefix
@@ -13,7 +15,7 @@ return [
      */
     'models' => [
         'User' => config('auth.providers.users.model'),
-        'Comment' => \LaraZeus\Replies\Models\Comment::class,
+        'Comment' => Comment::class,
     ],
 
     /**
