@@ -2,6 +2,8 @@
 
 namespace LaraZeus\Replies\Livewire;
 
+use Filament\Actions\Contracts\HasActions;
+use Filament\Actions\Concerns\InteractsWithActions;
 use Filament\Forms\Components\MarkdownEditor;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
@@ -16,8 +18,9 @@ use Livewire\Component;
 /**
  * @property mixed $form
  */
-class Comments extends Component implements HasForms
+class Comments extends Component implements HasForms, HasActions
 {
+    use InteractsWithActions;
     use InteractsWithForms;
 
     public ?array $data = [];
@@ -29,11 +32,11 @@ class Comments extends Component implements HasForms
         $this->form->fill();
     }
 
-    public static function form(Schema $form): Schema
+    public static function form(Schema $schema): Schema
     {
-        return $form
+        return $schema
             ->statePath('data')
-            ->schema([
+            ->components([
                 MarkdownEditor::make('comment')
                     ->toolbarButtons(config('zeus-replies.comments-editor-toolbar'))
                     ->columnSpanFull()
