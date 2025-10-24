@@ -2,6 +2,14 @@
 
 All notable changes to `Replies` will be documented in this file
 
+## 2.0.2 - 2025-10-24
+
+### What's Changed
+
+* fix by @atmonshi in https://github.com/lara-zeus/replies/pull/3
+
+**Full Changelog**: https://github.com/lara-zeus/replies/compare/2.0.1...2.0.2
+
 ## 2.0.1 - 2025-10-24
 
 ### What's Changed
