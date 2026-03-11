@@ -14,7 +14,7 @@ class RepliesServiceProvider extends PackageServiceProvider
 
     public function packageBooted(): void
     {
-        Livewire::component('replies.comments', Comments::class);
+        Livewire::addComponent(name: 'replies.comments', class: Comments::class);
     }
 
     public function configurePackage(Package $package): void
