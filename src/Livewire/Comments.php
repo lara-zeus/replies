@@ -2,8 +2,8 @@
 
 namespace LaraZeus\Replies\Livewire;
 
-use Filament\Actions\Contracts\HasActions;
 use Filament\Actions\Concerns\InteractsWithActions;
+use Filament\Actions\Contracts\HasActions;
 use Filament\Forms\Components\MarkdownEditor;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
@@ -18,7 +18,7 @@ use Livewire\Component;
 /**
  * @property mixed $form
  */
-class Comments extends Component implements HasForms, HasActions
+class Comments extends Component implements HasActions, HasForms
 {
     use InteractsWithActions;
     use InteractsWithForms;
