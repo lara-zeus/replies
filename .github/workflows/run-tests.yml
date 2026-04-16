@@ -29,6 +29,7 @@ jobs:
             testbench: 10.*
             openspout: 4.*
           - laravel: 13.*
+            php: 8.4
             testbench: 11.*
             openspout: 4.*
 
