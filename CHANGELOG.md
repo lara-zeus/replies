@@ -2,6 +2,15 @@
 
 All notable changes to `Replies` will be documented in this file
 
+## 3.0.0 - 2026-04-16
+
+### What's Changed
+
+* fix registering LW component by @atmonshi in https://github.com/lara-zeus/replies/pull/5
+* Support filament 5 by @atmonshi in https://github.com/lara-zeus/replies/pull/6
+
+**Full Changelog**: https://github.com/lara-zeus/replies/compare/2.0.3...3.0.0
+
 ## 2.0.4 - 2026-03-30
 
 ### What's Changed
