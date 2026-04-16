@@ -2,11 +2,11 @@ name: run-tests
 
 on:
   push:
-    branches: [2.x]
+    branches: [3.x]
     paths:
       - '**.php'
   pull_request:
-    branches: [2.x]
+    branches: [3.x]
     paths:
       - '**.php'
   workflow_dispatch:
@@ -17,19 +17,15 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        os: [ubuntu-latest, windows-latest]
-        php: [8.2,8.3,8.4]
-        laravel: [11.*,12.*]
+        os: [ubuntu-latest]
+        php: [8.4]
+        laravel: [13.*]
         stability: [prefer-lowest, prefer-stable]
         include:
-          - laravel: 11.*
-            testbench: 9.*
-            openspout: 4.28.5
-          - laravel: 12.*
-            testbench: 10.*
-            openspout: 4.*
+          - laravel: 13.*
+            testbench: 11.*
 
-    name: P${{ matrix.php }} - L${{ matrix.laravel }} - ${{ matrix.stability }} - ${{ matrix.os }} - O${{ matrix.openspout }}
+    name: P${{ matrix.php }} - L${{ matrix.laravel }} - ${{ matrix.stability }} - ${{ matrix.os }}
 
     steps:
       - name: Checkout code
@@ -49,7 +45,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          composer require "openspout/openspout:${{ matrix.openspout }}" "laravel/framework:${{ matrix.laravel }}" "orchestra/testbench:${{ matrix.testbench }}" --no-interaction --no-update
+          composer require "laravel/framework:${{ matrix.laravel }}" "orchestra/testbench:${{ matrix.testbench }}" --no-interaction --no-update
           composer update --${{ matrix.stability }} --prefer-dist --no-interaction
 
       - name: List Installed Dependencies
