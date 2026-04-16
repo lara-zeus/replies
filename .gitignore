@@ -18,3 +18,4 @@ yarn-error.log
 /pkg
 /build
 .DS_Store
+.phpunit.cache/test-results
